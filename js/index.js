@@ -1,20 +1,12 @@
 var component = {
+
     init : function () {
-        component.layui();
+        //Header 以及 Total部分事件
         component.mySign();
     },
 
-    layui : function () {
-        layui.use(['layer', 'form', 'element'], function () {
-            var layer = layui.layer
-                , form = layui.form
-                , element = layui.element
-     
-        });
-    },
-    
+    //签名类效果
     mySign : function () {
-
         //Img
         var signImgTouch = function () {
             $(this).animate({borderRadius : 0}, 1000);
