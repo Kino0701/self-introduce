@@ -1,35 +1,21 @@
 var component = {
-
-    /**
-     * 初始化
-     */
     init : function () {
-        //layui
         component.layui();
-        //Header 以及 Total部分事件
         component.mySign();
     },
 
-    /**
-     * layui
-     */
     layui : function () {
-        //加载layui模块
         layui.use(['layer', 'form', 'element'], function () {
             var layer = layui.layer
                 , form = layui.form
                 , element = layui.element
-            //layer.msg('Hello World');
-
+     
         });
     },
-  
-    /**
-     * 签名类效果
-     */
+    
     mySign : function () {
 
-        //Img(monkey)
+        //Img
         var signImgTouch = function () {
             $(this).animate({borderRadius : 0}, 1000);
         };
