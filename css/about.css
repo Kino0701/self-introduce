@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    /* 清除样式(清除圆点) */
+    list-style:none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+li{
+    list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+a{
+    /* 去除下划线 */
+    text-decoration: none;
+    /* 去除a标签点击后虚线框问题 */
+    outline: none;
+    color: #333;
+    cursor: auto;
+ 
+}
+
+a:active,a:hover{
+    color: #777
+}
+
+body{
+    letter-spacing: 1px;
+    font-family: Helvetica Neue,\\5FAE\8F6F\96C5\9ED1,Helvetica,Arial,sans-serif;
+    font-weight:100;
+    display: block;
+}
+
+/*头部内容*/
+.header{
+    overflow: hidden;
+    padding: 23px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+}
+.mytitle{
+    float: left;
+    margin-right: 20px;
+    border-right: 1px solid #b5b2b2;
+    line-height: 27px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+
+}
+.mytitle label{
+    margin-right: 20px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.mymenu-content{
+    float: left;
+    line-height: 27px;
+}
+.mymenu{
+    overflow: hidden;
+    font-weight: 300;
+}
+.mymenu li{
+    float: left;
+    margin-right: 20px;
+    border-right: 1px solid #b5b2b2;
+    padding-right: 20px;
+}
+.other-functions{
+    float: right;
+}
+.query{
+    float: right;
+    border-right: 1px solid #b5b2b2;
+    margin-right: 20px;
+}
+.keyword{
+    height: 27px;
+    padding-left: 5px;
+}
+
+
+/*上部*/
+.my-sign {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.my-signImg{
+    padding: 10px 96px 20px 230px;
+    float: left;
+}
+.my-signImg img{
+    width: 120px;
+    border-radius: 93px;
+    margin-right: 70px;
+    float: left;
+    border: 4px solid #efefef;
+    cursor: pointer;
+}
+.my-signWord{
+    margin-top: 35px;
+    float: left;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+    font-weight: 300;
+}
+.my-signTitle{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 0px;
+}
+.my-signBody{
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+/*下部*/
+.main-content{
+    background-color: #f4f4f4;
+    overflow:hidden;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+    font-weight: 300;
+}
+
+/*具体*/
+.tag_content{
+    width: 95%;
+}
+.my-totalContent{
+    float: left;
+    overflow: hidden;
+    width: 33%;
+}
+.blog-inTotal{
+    padding: 25px 50px;
+    margin: 30px 0px 30px 60px;
+    background-color: #ffffff;
+}
+
+.num-inTotal{
+    overflow: hidden;
+}
+.elem-field {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    border-color: #e6e6e6;
+    margin-bottom: 10px;
+    padding: 0;
+    border-width: 1px;
+    border-style: solid;
+    min-width: min-content;
+    }
+.elem-field legend {
+    margin-left: 15px;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.field-box {
+    padding: 10px 15px;
+}
+.field-box span{
+    cursor: pointer;
+}
+.field-box span:hover {
+    color: #fff;
+    background-color: rgb(119, 119, 119);
+}
+.badge-rim {
+    height: 18px;
+    line-height: 18px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+    color: #666;
+    border-color: #e6e6e6;
+    position: relative;
+    display: inline-block;
+    padding: 0 6px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 2px;
+    }
+
+/* 底部 */
+.bottle{
+    overflow: hidden;
+    text-align: right;
+    padding: 15px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+    background-color: #ffffff;
+    color: #777
+    
+}
+
+#tag1:hover{
+    background-color: #73858a;
+    color: #ffffff;
+}
+#pager{
+    text-align: center;
+}
