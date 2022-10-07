@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>个人主页</title>
+	    <!-- 自定义 css -->
+	    <link rel="stylesheet" href="css/books.css">
+	</head>
+	<body>
+	<!-- Header -->
+	<div class="header">
+        <div class="mytitle">
+            <label><a href="index.html">Kino</a></label>
+        </div>
+        <!-- 导航栏 -->
+        <div class="mymenu-content">
+            <ul class="mymenu">
+                <li><a href="about.html">简介</a></li>
+                <li><a href="books.html">书籍</a></li>
+                <li><a href="animes.html">番剧</a></li>
+                <li><a href="radio.html">广播剧</a></li>
+                <li><a href="hobits.html">爱好</a></li>
+                <li><a href="message.html">留言</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="my-sign">
+        <div class="my-signImg">
+            <img id="my-signImg" src="img/aniya.JPG">
+            <div class="my-signWord">
+                <span class="my-signTitle" id="my-signTitle">茶小西Kino</span>
+                <span class="my-signBody" id="my-signBody">I' am waiting for you here.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="main-content">
+        <div class="content-body">
+            <!-- 面板标题 -->
+            <div class="blog-item">
+                <div class="blog-item">
+                    <h2 class="blog-title">书籍介绍</h2>
+
+                <!--书籍详情1 -->
+                <div class="book-item">
+				    <h2 class="book-title">《第一人称单数》—— 村上春树
+                    </h2>
+				    <div class="book-content  book-content_show">
+				      <p style="text-indent: 20px;margin-top: 20px;color: #096837;">【作者简介】</p>
+                      <p style="text-indent: 20px;margin-top: 20px;">村上春树，1949年生于日本京都。凭处女作《且听风吟》获得群像新人文学奖，由此出道。后续著作不断，涵盖长篇小说、短篇小说、纪实文学、随笔等多个类型。</p>
+                      <p style="text-indent: 20px;margin-top: 20px;color: #096837;">【札记】</p>
+                      <p style="text-indent: 20px;margin-top: 20px;">P8 我不觉得她的长相无趣，但要用“美女”形容则的确有些勉强。至于她到底长成什么样子，如今我一点儿也想不起来了，所以无法细致地描述。</p>
+                      <p style="text-indent: 20px;margin-top: 20px;">P92 我算不上那种读书系统、缜密的“读书家”，却是一个不读铅字就没法好好打发时间的人。不能枯坐着什么都不干，要么翻翻书，要么听听音乐，这类事情于我无论如何都是必需的。</p>
+                      <p style="text-indent: 20px;margin-top: 20px;">……</p>
+                    </div>
+				</div>
+
+                <!--书籍详情2 -->
+                <div class="book-item">
+                    <h2 class="book-title">《自深深处》—— 王尔德</h2>
+                    <div class="book-content book-content_show">
+                        <p style="text-indent: 20px;margin-top: 20px;color: #096837;">【作者简介】</p>
+                        <p style="text-indent: 20px;margin-top: 20px;">血斯卡•王尔德(OscarwWilde.1854年10116日-1900年11130日）生于爱尔兰都柏林，19世纪英国(准确来讲是爱尔兰，但是当时由英国统治）最伟大的作家与艺术家之一，以其剧作、诗歌、童话和小说闻名，唯美主义代表人物，19世纪80年代美学运动的主力和90年代颓废派运动的先驱。</p>
+                        <p style="text-indent: 20px;margin-top: 20px;">王尔德出身名门，且天赋过人，20岁以全额奖学全考入牛津大学，他衣着张扬、不羁，一生争议不断。最后于巴黎逝世，肉身虽逝，魅力却随文字永存，一百多年来，无数倾慕者到他墓前瞻仰，他的墓碑基碑以布满吻痕成为一道独特的风景…</p>
+                        <p style="text-indent: 20px;margin-top: 20px;color: #096837;">【札记】</p>
+                        <p style="text-indent: 20px;margin-top: 20px;">p49为了迎合你的仇恨，你拿我的人生当赌注，一如你用我的金钱来赌注：两者都是漫不经心、义无反顾和不计后果的。</p>
+                        <p style="text-indent: 20px;margin-top: 20px;"> P113我一点不后悔曾经为享乐而活，我把享乐生活过到了极致，因为人做什公都应该追求极致，没有哪种形式的欢愉是我未曾体验过的。我甘于把我的灵魂的珍珠投到一杯葡萄酒里;我寻着笛声在开满樱草花的路上行进;我过着畅饮蜂蜜的日子。但无止境地这样生活下去是不对的…</p>
+                        <p style="text-indent: 20px;margin-top: 20px;">……</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+        <div class="bottle">
+            <p>此blog为web前端作业</p>
+
+        </div>
+        <hr class="my-line">
+    </div>
+    <!-- 引入jquery js -->
+    <script src="js/jquery.js"></script>
+    <!-- 自定义 js -->
+    <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            //init
+            component.init();
+        });
+    </script>
+
+	</body>
+</html>
+
+
+
+
+

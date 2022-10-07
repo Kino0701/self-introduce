@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>个人主页</title>
+	    <!-- 自定义 css -->
+	    <link rel="stylesheet" href="css/animes.css">
+	</head>
+	<body>
+	<!-- Header -->
+	<div class="header">
+        <div class="mytitle">
+            <label><a href="index.html">Kino</a></label>
+        </div>
+        <!-- 导航栏 -->
+        <div class="mymenu-content">
+            <ul class="mymenu">
+                <li><a href="about.html">简介</a></li>
+                <li><a href="books.html">书籍</a></li>
+                <li><a href="animes.html">番剧</a></li>
+                <li><a href="radio.html">广播剧</a></li>
+                <li><a href="hobits.html">爱好</a></li>
+                <li><a href="message.html">留言</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="my-sign">
+        <div class="my-signImg">
+            <img id="my-signImg" src="img/aniya.JPG">
+            <div class="my-signWord">
+                <span class="my-signTitle" id="my-signTitle">茶小西Kino</span>
+                <span class="my-signBody" id="my-signBody">I' am waiting for you here.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="main-content">
+	    <div class="my-totalContent">
+	        <div class="blog-inTotal">
+                <fieldset class="elem-field">
+                    <legend>番剧Tag</legend>
+                    <!-- tags -->
+                    <div class="field-box" id="tagContent">
+                    <span class="badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">《你的名字》</span>
+                    <span class="badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">《间谍过家家》</span>
+                    <span class="badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">《百妖谱》</span>
+                    <span class="badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">《鬼灭之刃》</span>
+                    <span class="badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">《从零开始的异世界》</span>
+                    <span class="badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">《小林家的龙女仆》</span>
+                    <span class="badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">《时光代理人》</span>
+                    <span class="badge-rim" style="height: 30px;line-height: 30px;margin-top: 13px;margin-left: 10px;font-weight: 400;">《莉可丽丝》</span>
+                    </div>
+                    </fieldset>
+	        </div>
+            
+	    </div>
+        <!-- 右面板 -->
+        <div class="content-body">
+            <!-- 面板1 -->
+            <div class="blog-item">
+                <h2 class="blog-title">番剧</h2>
+                <div class="content">
+                    <a href="https://www.bilibili.com/bangumi/media/md28237119/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1"><img class="animes_img" src="img/animes/1.png"></a>
+                    <a href="https://www.bilibili.com/bangumi/media/md28224394/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1"><img class="animes_img" src="img/animes/2.png"></a>
+                    <a href="https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1"><img class="animes_img" src="img/animes/3.png"></a>
+                    <a href="https://www.bilibili.com/bangumi/media/md28230742/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.2"><img class="animes_img" src="img/animes/7.jpg"></a>
+                </div>
+                <div class="content">
+                    <a href="https://www.bilibili.com/bangumi/media/md12044/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1"><img class="animes_img" src="img/animes/4.jpg"></a>
+                    <a href="https://www.bilibili.com/bangumi/media/md5800/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1"><img class="animes_img" src="img/animes/5.png"></a>
+                    <a href="https://www.bilibili.com/bangumi/media/md4313762/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1"><img class="animes_img" src="img/animes/6.jpg"></a>
+                    <a href="https://www.bilibili.com/bangumi/media/md28338623/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1"><img class="animes_img" src="img/animes/8.png"></a>
+                </div>
+                <p style="margin: 20px 0px;color: #096837;" class="blog-label">标签: 作业 / 番剧链接</p>
+            </div>
+        </div>
+    </div>
+        <div class="bottle">
+            <p>此blog为web前端作业</p>
+            <p>作业注解：鼠标移动各图片动画跳转至互联网对应番剧观看链接</p>
+        </div>
+        <hr class="my-line">
+    </div>
+    <!-- 引入jquery js -->
+    <script src="js/jquery.js"></script>
+    <!-- 自定义 js -->
+    <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            //init
+            component.init();
+        });
+    </script>
+	</body>
+</html>
+
