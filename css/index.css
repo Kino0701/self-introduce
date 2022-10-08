@@ -229,3 +229,12 @@ body{
 #pager{
     text-align: center;
 }
+
+.bottle{
+    overflow: hidden;
+    text-align: right;
+    padding: 15px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+    background-color: #ffffff;
+    color: #777
+}
